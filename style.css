@@ -1,0 +1,184 @@
+body {
+  background-color: #FFFFFF;
+}
+
+.info {
+  width: 800px;
+  height: 350px;
+  margin: auto;
+  text-align:center;
+  background-color: #FFFAF0;
+}
+
+.avatar img{
+  width: 15%;
+  height: 15%;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.contact{
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.content {
+  width: 800px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  gap: 20px
+}
+
+.aboutme{
+  background-color: #FFFAF0;
+  padding: 20px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;  
+}
+
+.skills{
+  background-color: #FFFAF0;
+  padding: 20px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 5; 
+}
+
+.indesign{
+  height: 14px;
+  border-radius: 30px;
+  width: 75%; 
+  background-color: #DEB887;
+}
+
+.premierepro{
+  height: 14px;
+  border-radius: 30px;
+  width: 85%; 
+  background-color: #DEB887;
+}
+
+.photoshop{
+  height: 14px;
+  border-radius: 30px;
+  width: 40%; 
+  background-color: #DEB887;
+}
+
+.google{
+  height: 14px;
+  border-radius: 30px;
+  width: 98%; 
+  background-color: #DEB887;
+}
+
+.powtoon{
+  height: 14px;
+  border-radius: 30px;
+  width: 75%; 
+  background-color: #DEB887;
+}
+
+.canva{
+  height: 14px;
+  border-radius: 30px;
+  width: 90%; 
+  background-color: #DEB887;
+}
+
+.html{
+  height: 14px;
+  border-radius: 30px;
+  width: 10%; 
+  background-color: #DEB887;
+}
+
+.css{
+  height: 14px;
+  border-radius: 30px;
+  width: 3%; 
+  background-color: #DEB887;
+}
+
+.certificate{
+  background-color: #FFFAF0;
+  padding: 20px;
+  line-height: 25px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 5;
+  grid-row-end: 6;  
+}
+
+.education{
+  background-color: #FFFAF0;
+  padding: 20px;
+  grid-column-start: 3;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 2;  
+}
+
+.experience{
+  background-color: #FFFAF0;
+  padding: 20px;
+  grid-column-start: 3;
+  grid-column-end: 6;
+  grid-row-start: 2;
+  grid-row-end: 4;  
+}
+
+.extrainformation{
+  background-color: #FFFAF0;
+  padding: 20px;
+  grid-column-start: 3;
+  grid-column-end: 6;
+  grid-row-start: 4;
+  grid-row-end: 6; 
+}
+
+
+a {
+  color: #000000;
+  text-decoration:none;
+}
+
+a:hover {
+  color: #DEB887;
+  text-decoration:none;
+}
+
+.footer {
+  width: 760px;
+  padding: 20px;
+  margin: auto;
+  background-color: #FFFAF0;
+  display: flex;
+  padding: 20px;
+}
+
+.card{
+  width:180px;
+  text-align: center;
+  color:#fff;
+  font-size:27px;
+  padding: 20px;
+}
+
+.card img{
+  width: 180px;
+}
+
+.card:hover .hover{
+  display: block;
+}
+
+.hover{
+  display: none;
+  background-color: #DEB887;
+}
